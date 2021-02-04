@@ -4,7 +4,7 @@ public class BmiClass {
 
 	public static void main(String[] args) {
 		double height = 1.60;
-		double weight = 70.9;
+		double weight = 50.9;
 		double bmi = weight / (height * height);
 		
 		if (bmi < 18.5) {
