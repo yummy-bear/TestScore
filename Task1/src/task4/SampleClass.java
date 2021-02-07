@@ -7,7 +7,7 @@ public class SampleClass {
 	}
 	public static void bmi(double height, double weight) {
 			
-		double bmi = weight / (height * height);
+	    double bmi = weight / (height * height);
 		
 		if (bmi < 18.5) {
 			System.out.println("低体重");
