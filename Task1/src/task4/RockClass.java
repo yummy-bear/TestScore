@@ -21,29 +21,13 @@ public class RockClass {
           
           
           
-          if (first == 0 && com == 1){
+          if ((first == 0 && com == 1)||(first == 1 && com == 2)||(first == 2 && com == 0)){
         	  win ++;
               System.out.println("勝ち");
-          }else if (first == 0 && com == 2) {
+          }else if ((first == 0 && com == 2)||(first == 1 && com == 0)||(first == 2 && com == 1)) {
         	  loose ++;
           	  System.out.println("負け");
-          	
-          }else if (first == 1 && com == 0) {
-        	  loose ++;
-        	  System.out.println("負け");
-        	  
-          }else if (first == 1 && com == 2) {
-        	  win ++;
-        	  System.out.println("勝ち");
-        	  
-          }else if (first == 2 && com == 0) {
-        	  win ++;
-        	  System.out.println("勝ち");
-        	  
-          }else if (first == 2 && com == 1) {
-        	  loose ++;
-        	  System.out.println("負け");
-        	  
+
           }else if (first == com) {
         	  System.out.println("あいこ");
           }
